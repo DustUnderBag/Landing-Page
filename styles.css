@@ -30,6 +30,7 @@ body,
 .hero-text p{
     font-size: 18px;
     color: #F9FAF8;
+    font-weight: 200;
 }
 
 .links a{
@@ -93,11 +94,24 @@ ul {
     gap: 36px;
 }
 
-.hero-text {
-    width:50%;
-    flex:1;
+.hero-text h1,
+.hero-text p{
+    margin:0;
+    margin-bottom: 10px;
 }
 
+button {
+    font-size:18px;
+    padding: 0.5em 1em;
+    border:0px;
+    width:140px;
+    height:40px;
+    border-radius: 10px;
+}
+button.sign-up {
+    border:2px solid white;
+}
 .hero-section img {
-    width: 50%;
+    width:700px;
+    flex: 0 1 auto;
 }
