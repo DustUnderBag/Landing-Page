@@ -104,15 +104,12 @@ ul {
     display:flex;
     flex-direction: column;
     gap: 15px;
-
-    flex: 1 1 auto;
+    flex:1 0 219px;
 }
 
 .hero-text h1,
 .hero-text p{
     margin:0;
-    width:219px;
-    flex:1 1 auto;
 }
 
 button {
