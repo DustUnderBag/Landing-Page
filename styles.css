@@ -92,6 +92,7 @@ ul {
     align-items: stretch;
     padding: 100px 200px;
     gap: 36px;
+    flex-wrap: wrap;
 }
 
 .hero-section img {
