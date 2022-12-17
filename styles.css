@@ -95,7 +95,7 @@ ul {
 }
 
 .hero-section img {
-    height:300px;
+    height:380px;
     width:auto;
     flex: 0 1 auto;
 }
@@ -103,17 +103,16 @@ ul {
 .hero-section .left {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 15px;
 
-    width:217px;
-    flex:1;
+    flex: 1 1 auto;
 }
 
 .hero-text h1,
 .hero-text p{
     margin:0;
-    margin-bottom: 10px;
-    flex:1;
+    width:219px;
+    flex:1 1 auto;
 }
 
 button {
