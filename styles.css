@@ -146,11 +146,12 @@ button.sign-up {
     justify-content: center;
     gap:35px;
     flex-wrap: wrap;
+    padding-bottom: 120px;
+
 }
 
 .card {
     width:250px;
-    margin-bottom: 160px;
 }
 
 .info-header {
