@@ -63,6 +63,10 @@ ul {
     color:#1F2937;
 }
 
+p {
+    margin: 0;
+}
+
 /* Layout */
 body{
     display: flex;
@@ -126,12 +130,36 @@ button.sign-up {
     border:2px solid white;
 }
 
+
+
 .info-section {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .card-container {
+    font-size: 18px;
+    font-weight: 200;
+    
     display:flex;
     justify-content: center;
+    gap:35px;
+    flex-wrap: wrap;
 }
+
+.card {
+    width:250px;
+    margin-bottom: 160px;
+}
+
+.info-header {
+    margin: 40px 0;
+}
+
+.card img {
+    width: 250px;
+    border-radius: 25px;
+    border:3px solid #3882F6;
+}
+
