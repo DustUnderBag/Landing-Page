@@ -136,8 +136,7 @@ button.sign-up {
 
 .info-section {
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    margin: 0 10%;
 }
 
 .card-container {
@@ -167,11 +166,11 @@ button.sign-up {
 }
 
 .quote-section {
-    padding: 100px 0;
+    padding: 100px 10%;
 }
 
 .quote-text {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -180,10 +179,9 @@ button.sign-up {
     margin-top:1em;
 }
 
-
 .call-action-section {
-    margin: 100px 100px;
-    padding: 50px;
+    margin: 100px 10%;
+    padding: 45px 5%;
     border-radius: 15px;
 
     display:flex;
